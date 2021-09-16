@@ -1,0 +1,64 @@
+{
+    "name": "idch/laravel-mailcoach-postal-feedback",
+    "description": "Process feedback for email campaigns sent using Postal Mail Server",
+    "keywords": [
+        "spatie",
+        "idcloudhost",
+        "idch",
+        "goeroeku",
+        "laravel-mailcoach-postal-feedback"
+    ],
+    "homepage": "https://github.com/idcloudhost",
+    "authors": [
+        {
+            "name": "Agus Indra Cahaya",
+            "email": "goeroeku@gmail.com",
+            "homepage": "https://github.com/goeroeku",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://satis.spatie.be"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "spatie/laravel-mailcoach": "^4.0"
+    },
+    "require-dev": {
+        "ext-json": "*",
+        "fakerphp/faker": "^1.12",
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.4",
+        "symfony/var-dumper": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "IDCH\\MailcoachPostalFeedback\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "IDCH\\MailcoachPostalFeedback\\Tests\\": "tests",
+            "IDCH\\Mailcoach\\Database\\Factories\\": "vendor/idch/laravel-mailcoach/database/factories"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IDCH\\MailcoachPostalFeedback\\MailcoachPostalFeedbackServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

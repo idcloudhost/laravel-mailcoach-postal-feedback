@@ -1,0 +1,25 @@
+{
+    "event": "MessageLoaded",
+    "timestamp": 1630920343.9700081,
+    "payload": {
+        "message": {
+            "id": 8,
+            "token": "NAJiJ3fjb1qR",
+            "direction": "outgoing",
+            "message_id": "9a0b6a5ce5716727d188fbfdb7515c0d@swift.generated",
+            "to": "goeroeku@gmail.com",
+            "from": "no-reply@aic.my.id",
+            "subject": "Coba Campign",
+            "timestamp": 1630920340.9164312,
+            "spam_status": "NotChecked",
+            "tag": null
+        },
+        "status": "Sent",
+        "details": "Message for goeroeku@gmail.com accepted by gmail-smtp-in.l.google.com (2404:6800:4003:c03::1b)",
+        "output": "250 2.0.0 OK  1630920343 o21si32854pjs.27 - gsmtp\n",
+        "sent_with_ssl": true,
+        "timestamp": 1630920343.9296768,
+        "time": 1.6
+    },
+    "uuid": "28ee3c35-3186-4d02-9300-a92ab43128c2"
+}

@@ -1,0 +1,23 @@
+{
+    "event": "MessageLinkClicked",
+    "timestamp": 1630920343.9700081,
+    "payload": {
+        "url": "http://aic.my.id",
+        "token": "VJzsFA0S",
+        "ip_address": "185.22.208.2",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36",
+        "message": {
+            "id": 12345,
+            "token": "abcdef123",
+            "direction": "outgoing",
+            "message_id": "9a0b6a5ce5716727d188fbfdb7515c0d@swift.generated",
+            "to": "test@example.com",
+            "from": "sales@awesomeapp.com",
+            "subject": "Welcome to AwesomeApp",
+            "timestamp": 1477945177.12994,
+            "spam_status": "NotSpam",
+            "tag": "welcome"
+        }
+    },
+    "uuid": "28ee3c35-3186-4d02-9300-a92ab43128c2"
+}

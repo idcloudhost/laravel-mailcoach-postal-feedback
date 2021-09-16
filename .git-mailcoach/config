@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/spatie/laravel-mailcoach-mailgun-feedback.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	pushurl = git@github.com:spatie/laravel-mailcoach-mailgun-feedback.git
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[remote "composer"]
+	url = https://github.com/spatie/laravel-mailcoach-mailgun-feedback.git
+	fetch = +refs/heads/*:refs/remotes/composer/*

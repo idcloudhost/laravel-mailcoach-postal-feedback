@@ -1,0 +1,31 @@
+{
+    "event": "MessageBounced",
+    "timestamp": 1521233195,
+    "payload": {
+        "original_message": {
+            "id": 12345,
+            "token": "abcdef123",
+            "direction": "outgoing",
+            "message_id": "9a0b6a5ce5716727d188fbfdb7515c0d@swift.generated",
+            "to": "test@example.com",
+            "from": "sales@awesomeapp.com",
+            "subject": "Welcome to AwesomeApp",
+            "timestamp": 1521233195,
+            "spam_status": "NotSpam",
+            "tag": "welcome"
+        },
+        "bounce": {
+            "id": 12347,
+            "token": "abcdef124",
+            "direction": "incoming",
+            "message_id": "5817a64332f44_4ec93ff59e79d154565eb@someserver.com",
+            "to": "abcde@psrp.postal.yourdomain.com",
+            "from": "postmaster@someserver.com",
+            "subject": "Delivery Error",
+            "timestamp": 1521233195,
+            "spam_status": "NotSpam",
+            "tag": null
+        }
+    },
+    "uuid": "28ee3c35-3186-4d02-9300-a92ab43128c2"
+}
