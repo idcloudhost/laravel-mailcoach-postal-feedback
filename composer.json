@@ -9,6 +9,7 @@
         "laravel-mailcoach-postal-feedback"
     ],
     "homepage": "https://github.com/idcloudhost",
+    "license": "MIT",
     "authors": [
         {
             "name": "Agus Indra Cahaya",
