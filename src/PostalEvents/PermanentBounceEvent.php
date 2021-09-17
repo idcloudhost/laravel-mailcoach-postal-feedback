@@ -16,7 +16,7 @@ class PermanentBounceEvent extends PostalEvent
     {
         $data = $this->payload['payload'];
 
-        if ($data['original_message']['from'] !== $send->subscriber->email) {
+        if ($data['original_message']['to'] !== $send->subscriber->email) {
             return;
         }
 
